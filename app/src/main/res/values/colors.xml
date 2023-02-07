@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#EACBBB</color>
+    <color name="surfaceVariant">#F4DED4</color>
+    <color name="onPrimary">#000000</color>
+    <color name="veryWhite">#FFFBFF</color>
+</resources>

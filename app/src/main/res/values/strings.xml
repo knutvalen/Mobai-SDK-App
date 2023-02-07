@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobai SDK App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Camera_access_is_required.">Camera access is required.</string>
+    <string name="Camera_permission_is_granted.">Camera permission is granted.</string>
+    <string name="Camera_permission_request_was_denied.">Camera permission request was denied.</string>
+    <string name="Allow">Allow</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="android:colorBackground">@color/veryWhite</item>
+        <item name="colorSurface">@color/veryWhite</item>
+    </style>
+</resources>
