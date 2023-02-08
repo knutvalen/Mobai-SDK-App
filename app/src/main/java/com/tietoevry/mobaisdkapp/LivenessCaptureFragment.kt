@@ -23,7 +23,7 @@ class LivenessCaptureFragment : Fragment() {
             Timber.i("onCaptureFinished: $result")
 
             result?.let {
-                livenessCaptureListener?.onCaptureFinished(it.captureSessionData)
+                livenessCaptureListener?.onCaptureFinished(it.frames)
             }
         }
 
