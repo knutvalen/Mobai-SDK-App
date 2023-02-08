@@ -2,6 +2,7 @@ package com.tietoevry.mobaisdkapp
 
 import android.Manifest
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -94,10 +95,10 @@ class MainFragment : Fragment(), LivenessCaptureListener {
         }
     }
 
-    override fun onCaptureFinished(captureSessionData: ByteArray) {
-        val priority = if (captureSessionData.isEmpty()) { Log.ERROR } else { Log.INFO }
-        Timber.log(priority, "captureSessionData Size: ${captureSessionData.size}")
-        Timber.log(priority, "captureSessionData as String: ${captureSessionData.toString(Charsets.UTF_8)}")
+    override fun onCaptureFinished(framesCollection: List<Bitmap?>) {
+        val priority = if (framesCollection.isEmpty()) { Log.ERROR } else { Log.INFO }
+        Timber.log(priority, "framesCollection Size: ${framesCollection.size}")
+        Timber.log(priority, "framesCollection as String: $framesCollection")
     }
 
 }
